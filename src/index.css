@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+*{
+    font-family: "popins", "sans-serif";
+}
+.color-prymary{
+    color: #5caf90;
+}
+.color-bg{
+    background-color: #5caf90;
+}
+
+.color-text{
+    color: #4b5966;
+}
+.style-text{
+    color: #4b5966;
+    font-size: 14px;
+}
