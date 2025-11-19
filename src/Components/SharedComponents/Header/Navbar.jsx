@@ -27,8 +27,6 @@ export default function Navbar() {
           <NavLink className={({isActive}) => isActive ? 'color-prymary' : ''} to="/contract">
             Contact Us
           </NavLink>
-         
-         
         </div>
         <div className='flex items-center gap-2 color-bg text-white py-2 px-6 rounded-md'>
           <LuShoppingCart />
