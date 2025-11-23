@@ -280,26 +280,4 @@
     "quantity": 1,
     "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/50_1.jpg"
   }
-  {
-    "id": 13,
-    "name": "Beauty Essentials Lipstick Set",
-    "categoryId": 6,
-    "categoryName": "Cosmatics",
-    "price": 899.0,
-    "mrp": 1499.0,
-    "discount": 40,
-    "sku": "CM12",
-    "stock": "In Stock",
-    "ratings": 524,
-    "description": "Set of 6 long-lasting matte lipsticks in vibrant shades. Smooth and hydrating formula.",
-    "closure": "Box",
-    "sole": "N/A",
-    "width": "Compact",
-    "outerMaterial": "Plastic & Wax",
-    "weightOptions": [
-      "6 pcs set"
-    ],
-    "quantity": 1,
-    "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/50_1.jpg"
-  }
 ]
