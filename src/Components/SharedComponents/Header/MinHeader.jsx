@@ -19,7 +19,6 @@ const MinHeader = () => {
             />
           </div>
 
-          {/* Center: Desktop Search (hidden on small screens) */}
           <div className="hidden md:flex flex-1 justify-center">
             <div className="w-full max-w-[700px]">
               <label htmlFor="search-desktop" className="sr-only">
@@ -40,9 +39,7 @@ const MinHeader = () => {
             </div>
           </div>
 
-          {/* Right: Account + Cart + Mobile Search Toggle */}
           <div className="flex items-center gap-4">
-            {/* Mobile: search toggle (visible on sm only) */}
             <button
               type="button"
               className="md:hidden p-2 rounded-lg hover:bg-gray-100"
@@ -72,7 +69,6 @@ const MinHeader = () => {
           </div>
         </div>
 
-        {/* Mobile search input dropdown (visible when toggled) */}
         <div
           className={`mt-3 md:hidden transition-max-h duration-300 ease-in-out overflow-hidden ${
             mobileSearchOpen ? "max-h-40" : "max-h-0"

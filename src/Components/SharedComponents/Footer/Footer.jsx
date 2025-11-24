@@ -13,11 +13,9 @@ import {
 } from "react-icons/fa";
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import logo from '../../../assets/image/logo.png'
 
-/**
- * Developer note: use the uploaded file path as logo URL.
- * The system will transform this local path into a usable URL.
- */
+
 const logoUrl = "#";
 
 const Footer = () => {
@@ -40,25 +38,23 @@ const Footer = () => {
 
   return (
     <footer className="bg-white border-t border-gray-200 mt-12 text-gray-700">
-      {/* Top Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
-          {/* Logo & Description */}
           <div className="lg:col-span-2 flex flex-col items-center sm:items-start text-center sm:text-left">
             <div className="flex items-center gap-3 mb-3">
               <img
-                src={logoUrl}
-                alt="Sakib logo"
+                src={logo}
+                alt="logo"
                 className="w-12 h-12 rounded-md object-cover"
               />
               <div>
-                <h2 className="text-2xl font-semibold text-gray-800">Sakib</h2>
+                <h2 className="text-2xl font-semibold text-gray-800">WEAR CRAFT</h2>
                 <p className="text-xs text-gray-500">Grocery & Daily Needs</p>
               </div>
             </div>
 
             <p className="text-sm text-gray-600 mb-4 max-w-md">
-              Sakib is the biggest market of grocery products.
+              WEAR CRAFT is the biggest market of grocery products.
               <br />
               Get your daily needs from our store — fast delivery & secure payment.
             </p>
@@ -141,7 +137,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
           <p className="text-center sm:text-left">
             Copyright © {new Date().getFullYear()}{" "}
-            <span className="text-green-600 font-semibold">Sakib</span> — all rights reserved.
+            <span className="text-green-600 font-semibold">WEAR CRAFT</span> — all rights reserved.
           </p>
 
           <div className="flex items-center gap-3 text-2xl text-gray-600">
