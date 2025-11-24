@@ -2,6 +2,8 @@ import React from 'react'
 import { Outlet } from 'react-router'
 import MinHeader from '../Components/SharedComponents/Header/MinHeader'
 import Mainheader from '../Components/SharedComponents/Header/mainHeader'
+import Footer from '../Components/SharedComponents/Footer/Footer'
+
 
 
 
@@ -10,9 +12,7 @@ const Root = () => {
         <div>
             <Mainheader/>
             <Outlet />
-            <footer>
-                This is Footer
-            </footer>
+            <Footer></Footer>
         </div>
     )
 }
