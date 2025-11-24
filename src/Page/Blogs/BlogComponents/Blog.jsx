@@ -1,9 +1,10 @@
 import React from 'react'
+import ResponsiveBlog from './ResponsiveBlog'
 
 const Blog = () => {
   return (
     <div>
-      <h1>Blog</h1>
+      <ResponsiveBlog></ResponsiveBlog>
     </div>
   )
 }

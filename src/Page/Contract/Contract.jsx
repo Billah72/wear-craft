@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import ContactElement from './ContactComponents/ContactElement';
 
-const Contract = () => {
-  return (
-    <div>
-      <h1>Contact</h1>
-    </div>
-  )
-}
+const Contact = () => {
+    return (
+        <div>
+            <ContactElement></ContactElement>
+        </div>
+    );
+};
 
-export default Contract
+export default Contact;
