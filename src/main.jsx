@@ -8,6 +8,7 @@ import About from './Page/About/About';
 import ShopNow from './Page/ShopNow/ShopNow';
 import Blog from './Page/Blogs/BlogComponents/Blog';
 import Contract from './Page/Contract/Contract';
+import SingleProduct from './Components/SingleProduct';
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       { path: "/blog", element: <Blog/>},
       { path: "/contact", element: <Contract/>},
       { path: "/shopnow", element: <ShopNow/>},
+      { path: "/shopnow/:id", element: <SingleProduct/>},
     ],
   },
 ]);
